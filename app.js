@@ -1,4 +1,7 @@
-let a = 11;
-let b = 51;
-b = a;
-console.log(b);
+let age = 15;
+if (age >=18){
+    console.log("you can vote");
+
+}else if (age <18){
+    console.log("you cannot vote");
+}
