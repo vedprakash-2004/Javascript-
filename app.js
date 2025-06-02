@@ -1,6 +1,4 @@
-let a = 10;
-let b = 5;
-console.log(a++);
-console.log(++a);
+let age = 18;
+console.log(age<18);
 
 
