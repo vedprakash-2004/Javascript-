@@ -1,8 +1,12 @@
-//conditional statement
-console.log("before my if statement");
-let age = 23;
-if(age>=18){
-    console.log("you can vote");
-}
-console.log("after my if statement");
+//Traffic Light System
 
+let color = "red";
+
+if(color === "red"){
+    console.log("stop");
+}if(color ==="yellow"){
+    console.log("slow down");
+}
+if(color === "green"){
+    console.log("go");
+}
