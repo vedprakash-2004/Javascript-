@@ -1,7 +1,10 @@
-let age = 15;
-if (age >=18){
-    console.log("you can vote");
+let a = 10;
+let b = 5;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+console.log(a**b);
 
-}else if (age <18){
-    console.log("you cannot vote");
-}
+
