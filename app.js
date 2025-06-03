@@ -1,6 +1,6 @@
-let num = 12;
-if((num%3 ===0) && ((num+1 == 15) || (num-1 == 11))){
-    console.log("safe");
+if (true){
+    console.log("it has true value");
+
 }else{
-    console.log("unsafe");
+    console.log("if has false value");
 }
