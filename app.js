@@ -1,6 +1,35 @@
-if (true){
-    console.log("it has true value");
+let day = 1;
 
-}else{
-    console.log("if has false value");
-}
+switch (day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("wednesday");
+         break;
+    case 4:
+        console.log("Thirsday");
+         break;
+    case 5:
+        console.log("Friday");
+         break;
+    case 6:
+        console.log("Saturday");
+         break;
+    case 7:
+        console.log("sunday");
+         break;
+    default:
+        console.log("wrong day!");
+}        
+
+
+
+
+
+
+
+      
