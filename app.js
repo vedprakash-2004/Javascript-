@@ -1,6 +1,7 @@
-let marks = 75;
+let str = "apple";
 
-if((marks>33 && marks <= 80) || !false){
-    console.log("pass");
-    console.log("A+");
+if (str[0] ==="a" && str.length > 3){
+    console.log("good string");
+}else {
+    console.log("not a good string");
 }
