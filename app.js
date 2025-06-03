@@ -1,2 +1,3 @@
-alert("something is wrong!");
-console.error("this is a warning msg");
+let firstName = prompt("enter first name");
+let lastName = prompt("enter last name");
+console.log("welcome", firstName, lastName,"!");
