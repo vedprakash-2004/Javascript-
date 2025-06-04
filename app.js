@@ -1,2 +1,1 @@
-let msg = "apnacollege";
-console.log(msg.slice(4, length-1));
+let student = ["aman", "shradha", "rajat"];
