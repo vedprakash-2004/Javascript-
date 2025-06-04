@@ -1,3 +1,3 @@
-let firstName = prompt("enter first name");
-let lastName = prompt("enter last name");
-console.log("welcome", firstName, lastName,"!");
+let password = prompt("set your password");
+let newPass = password.trim();
+console.log(password);
