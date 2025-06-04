@@ -1,4 +1,2 @@
-let msg = "    hello   ";
-
-let newMsg = msg.trim().toUpperCase();
-console.log(newMsg);
+let msg = "apnacollege";
+console.log(msg.slice(4, length-1));
