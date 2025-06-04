@@ -1,3 +1,4 @@
-let password = prompt("set your password");
-let newPass = password.trim();
-console.log(password);
+let name = "Apna college";
+let msg = "error";
+
+console.log(msg.toUpperCase());
