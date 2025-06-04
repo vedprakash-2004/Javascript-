@@ -1,4 +1,4 @@
-let name = "Apna college";
-let msg = "error";
+let msg = "    hello   ";
 
-console.log(msg.toUpperCase());
+let newMsg = msg.trim().toUpperCase();
+console.log(newMsg);
