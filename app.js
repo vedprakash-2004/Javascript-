@@ -1,10 +1,5 @@
-
-let n = prompt("write your number");
-n = parseInt(n);
-for(let i = 3; i<=30 ; i=i+3) {
-    
-       
-    
-    console.log(i);
-    
+for(let i = 1; i<=3; i++){
+    for (let j=1; j<=3; j++){
+        console.log(j);
+    }
 }
