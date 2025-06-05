@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ssimon says game</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html>
+  <head>
+    <title>Google Chart Example</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    <script type="text/javascript">
+      // Load Google Charts package
+      google.charts.load('current', {'packages':['corechart']});
 
+      // Set callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
 
- 
-  <script src="app.js"></script>
-</body>
+      // Callback that creates and populates a data table, instantiates the chart, and draws it.
+      function drawChart() {
+        // Create the data table.
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     8],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 3],
+          ['Sleep',    9]
+        ]);
+
+        // Set chart options
+        var options = {
+          title: 'My Daily Activities'
+        };
+
+        // Instantiate and draw the chart.
+        var chart = new google.visualization.Histogram(document.getElementById('histogram'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h2>Google histogram Example</h2>
+    <div id="histogram" style="width: 600px; height: 400px;"></div>
+  </body>
 </html>
-
