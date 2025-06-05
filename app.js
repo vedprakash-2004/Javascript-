@@ -1,5 +1,6 @@
-for(let i = 1; i<=3; i++){
-    for (let j=1; j<=3; j++){
-        console.log(j);
-    }
+let i =0;
+
+while (i<=20){
+    console.log(i);
+    i = i+2;
 }
