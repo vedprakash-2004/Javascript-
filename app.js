@@ -1,4 +1,4 @@
-for(let i = 2; ; i=i+2) {
+for(let i = 3; i<=30 ; i=i+3) {
     
        
     
