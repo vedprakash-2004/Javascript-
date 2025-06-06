@@ -1,6 +1,9 @@
-let i =0;
+let fruits = ["mango", "apple", "banana", "litchi"];
 
-while (i<=20){
-    console.log(i);
-    i = i+2;
+for(fruits of fruits){
+    console.log(fruits);
+}
+
+for(char of "apnacollege"){
+    console.log(char);
 }
