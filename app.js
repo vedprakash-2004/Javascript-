@@ -1,9 +1,7 @@
-let fruits = ["mango", "apple", "banana", "litchi"];
+let heroes = [["superman","batman","wonder woman"], ["spiderman", "ironman", "thor"]];
 
-for(fruits of fruits){
-    console.log(fruits);
-}
-
-for(char of "apnacollege"){
-    console.log(char);
+for(list of heroes){
+    for(hero of list){
+        console.log(hero);
+    }
 }
