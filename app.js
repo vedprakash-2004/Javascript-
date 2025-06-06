@@ -1,6 +1,16 @@
-const student ={
-    name: "vedprakash",
-    age: 21,
-    marks: 94.4,
-    city: "Delhi"
-};
+const classInfo = {
+    aman: {
+        grade: "A+",
+        city: "Delhi",
+    },
+
+    shradha: {
+        grade: "A",
+        city: "pune"
+    },
+
+    karan: {
+        grade: "O",
+        city: "Mumbai"
+    }
+}
