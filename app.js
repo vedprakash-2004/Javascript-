@@ -5,4 +5,17 @@ function printPoem() {
     console.log("Like a diamond in the sky.");
 
 
-}    printPoem();
+} 
+
+function rollDice() {
+  let rand = Math.floor(Math.random() * 6) + 1;
+  console.log(rand);
+}
+
+rollDice();
+rollDice();
+rollDice();
+rollDice();
+rollDice();
+rollDice();
+rollDice();
