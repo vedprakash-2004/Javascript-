@@ -1,19 +1,17 @@
-const classInfo = [
-      {
-        name: "aman",
-        grade: "A+",
-        city: "Delhi"
-    },
+function hello () {
+    console.log("hello");
+}
 
-    {
-        name: "Shradha",
-        grade: "A+",
-        city: "pune"
-    },
+hello();
+hello();
+hello();
+hello();
+hello();
 
-    {
-        name: "karan",
-        grade: "O",
-        city: "Mumbai"
+
+function print1to5() {
+    for(let i=1; i<=5; i++){
+        console.log(i);
     }
-];
+}
+print1to5();
