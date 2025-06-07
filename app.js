@@ -15,3 +15,14 @@ function print1to5() {
     }
 }
 print1to5();
+
+
+function isAdult() {
+    let age = 18;
+    if (age >= 18){
+        console.log("Adult");
+    }else {
+        console.log("not adult");
+    }
+}
+isAdult() ;
