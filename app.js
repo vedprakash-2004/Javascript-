@@ -1,28 +1,8 @@
-function hello () {
-    console.log("hello");
-}
-
-hello();
-hello();
-hello();
-hello();
-hello();
+function printPoem() {
+    console.log("Twinkle, twinkle, little star,");
+    console.log("How I wonder what you are!");
+    console.log(" Up above the world so high");
+    console.log("Like a diamond in the sky.");
 
 
-function print1to5() {
-    for(let i=1; i<=5; i++){
-        console.log(i);
-    }
-}
-print1to5();
-
-
-function isAdult() {
-    let age = 18;
-    if (age >= 18){
-        console.log("Adult");
-    }else {
-        console.log("not adult");
-    }
-}
-isAdult() ;
+}    printPoem();
