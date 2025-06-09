@@ -1,9 +1,7 @@
-function sum (a,b){
-    console.log(a+b);
-}
-function calcAvg(a, b, c){
-    let avg = (a+b+c)/3;
-    console.log(avg);
+function printTable(n){
+    for(let i=n; i<=n*10; i+=n){
+        console.log(i);
+    }
 }
 
-calcAvg(2,4,7);
+printTable(2);
