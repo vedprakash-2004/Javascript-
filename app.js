@@ -1,8 +1,9 @@
-function isAdult(age){
-    if(age >= 18){
-        return "adult";
-    } else {
-        return "not adult";
+function getSum(n){
+    let sum = 0;
+
+    for(let i=1; i<=n; i++){
+        sum += i;
+
     }
-    
+    return sum;
 }
