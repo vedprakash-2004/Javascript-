@@ -1,7 +1,8 @@
-function printTable(n){
-    for(let i=n; i<=n*10; i+=n){
-        console.log(i);
+function isAdult(age){
+    if(age >= 18){
+        return "adult";
+    } else {
+        return "not adult";
     }
+    
 }
-
-printTable(2);
