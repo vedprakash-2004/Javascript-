@@ -1,5 +1,8 @@
-for(let i=1; i<=5; i++){
-    console.log(i);
+function outerFunc(){
+    let x = 5;
+    let y = 6;
+    function innerFunc(){
+        console.log(x);
+    }
+    innerFunc();
 }
-
-console.log(i);
