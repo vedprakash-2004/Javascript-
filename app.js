@@ -1,10 +1,9 @@
-let greet = function(){
+function multipleGreet (func, cout){
+    for(let i=1; i<=count ; i++){
+        func();
+    }
+} 
+let greet = function() {
     console.log("hello");
 }
-
-greet();
-greet();
-greet();
-greet();
-greet();
-greet();
+multipleGreet(greet(), 10);
