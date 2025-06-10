@@ -1,11 +1,14 @@
-let greet ="hell0";
+let name = "somu";
+let x = 5;
 
-function changeGreet(){
-    let greet = "nameste";
-    console.log(greet);
-    function innerGreen(){
-        console.log(greet);
-    }
+let sum = function(a, b){
+    return a+b;
 }
-console.log(greet);
-changeGreet();
+
+
+let hello = function(){
+    console.log("hello");
+}
+hello = function (){
+    console.log("namaste");
+}
