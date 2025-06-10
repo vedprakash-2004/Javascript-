@@ -1,8 +1,11 @@
-function outerFunc(){
-    let x = 5;
-    let y = 6;
-    function innerFunc(){
-        console.log(x);
+let greet ="hell0";
+
+function changeGreet(){
+    let greet = "nameste";
+    console.log(greet);
+    function innerGreen(){
+        console.log(greet);
     }
-    innerFunc();
 }
+console.log(greet);
+changeGreet();
