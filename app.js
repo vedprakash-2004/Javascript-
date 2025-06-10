@@ -1,5 +1,5 @@
-function calSum(a,b){
-    let sum = a+b;
-    console.log(sum);
+for(let i=1; i<=5; i++){
+    console.log(i);
 }
-calSum(1,2);
+
+console.log(i);
