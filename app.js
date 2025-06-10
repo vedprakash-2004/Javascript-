@@ -1,14 +1,10 @@
-let name = "somu";
-let x = 5;
-
-let sum = function(a, b){
-    return a+b;
-}
-
-
-let hello = function(){
+let greet = function(){
     console.log("hello");
 }
-hello = function (){
-    console.log("namaste");
-}
+
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
