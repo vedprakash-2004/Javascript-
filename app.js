@@ -1,13 +1,7 @@
-const sum = (a, b) => a + b;
+console.log("hi there");
 
-const cube = (n) => n*n*n;
+setTimeout ( ()=> {
+    console.log("Apna College");
+}, 4000);
 
-const pow = (a,b) => {
-    return a**b;
-
-};
-
-const hello = () => {
-    console.log("hello world");
-};
-const mul = (a,b) => a*b;
+console.log("welcome to");
