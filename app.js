@@ -1,7 +1,8 @@
-let id = setInterval(()=>{
-    console.log("Hello World");
-}, 2000);
+let arr = [1, 2, 3, 4, 5];
 
-setTimeout(() => {
-    clearInterval(id);
-}, 10000);
+let print = function (el){
+    console.log(el);
+
+};
+err. forEach(print);
+    
