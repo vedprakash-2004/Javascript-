@@ -4,6 +4,10 @@ arr.forEach(function(el){
     console.log(el);
 });
 
+arr.forEach(function(el){
+    console.log(el);
+});
+
 // let print = function (el){
 //     console.log(el);
 
