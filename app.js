@@ -1,16 +1,16 @@
-let arr = [1, 2, 3, 4, 5];
+let arr = [{
+    name: "somu",
+    marks: 95,
+},
+{
+    name: "ved",
+    marks: 94.4,
+},
+{
+    name:"Jha",
+    marks: 92,
+}];
 
-arr.forEach(function(el){
-    console.log(el);
+arr.forEach((student ) => {
+    console.log(student.marks);
 });
-
-arr.forEach(function(el){
-    console.log(el);
-});
-
-// let print = function (el){
-//     console.log(el);
-
-// };
-// err. forEach(print);
-    
