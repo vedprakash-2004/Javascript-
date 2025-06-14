@@ -1,16 +1,5 @@
-let arr = [{
-    name: "somu",
-    marks: 95,
-},
-{
-    name: "ved",
-    marks: 94.4,
-},
-{
-    name:"Jha",
-    marks: 92,
-}];
+let num = [1, 2, 3, 4];
 
-arr.forEach((student ) => {
-    console.log(student.marks);
+let double = num.map(function(el){
+    return el*el;
 });
