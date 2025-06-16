@@ -1,15 +1,5 @@
+let nums = [10, 20, 30, 40];
 
+let ans = nums.every((el) => el % 10 ==0);
 
-let arr = [1, 4, 2, 5, 6, 7, 2, 9, 2];
-
-let max =  arr.reduce((max, el) =>{
-    if(max < el){
-        return el;
-    }else {
-        return max;
-    }
-});
-
-console.log(max);
-
-
+console.log(ans);
