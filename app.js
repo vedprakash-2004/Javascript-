@@ -1,5 +1,15 @@
-let nums = [10, 20, 30, 40];
+function getMin(nums) {
+    let min = nums.reduce((min, el) => {
+    if (min < el){
+        return min;
+    }else {
+        return el;
+    }
+});
+return min ;
 
-let ans = nums.every((el) => el % 10 ==0);
+}
 
-console.log(ans);
+let nums = [10, 20, 30, 40, 5];
+
+
