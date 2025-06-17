@@ -1,10 +1,9 @@
-const data = {
-    email: "ironman@gmailcom",
-    password:"abc",
-};
-const dataCopy = {...data, id: 123, country:"i=India"};
+function sum (...args){
+    for(let i=0; i< args.length; i++){
+        console.log("you gave us:", args[i]);
+    }
+}
 
-let arr = [1,2,3,4,5];
-let obj1 = {...arr};
-
-let obj2 = {..."hello"};
+function main (a, b, c, d){
+    console.log(arguments);
+}
