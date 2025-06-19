@@ -1,14 +1,3 @@
-function sum(...args){
-    return args.reduce((sum, el)=> sum+el);
-}
+let names = ["tony", "bruce", "peter", "steve", "abc", "xyz", "pyq "];
 
-function min(...args){
-    console.log(msg);
-    return args.reduce((min, el) =>{
-        if(min > el){
-            return el;
-        }else{
-          return min;
-        }
-    });
-}
+let [winner, runnerup, ...others] = names;
