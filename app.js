@@ -1,3 +1,12 @@
-let names = ["tony", "bruce", "peter", "steve", "abc", "xyz", "pyq "];
+const student = {
+    name:"karan",
+    age: 14,
+    class: 9,
+    subjects: ["hindi", "english", "math","science"],
+    username:"karan@123",
+    password:"abcd",
+    city:"pune",
+};
 
-let [winner, runnerup, ...others] = names;
+let {username: user, password: secret, city: place = "mumbai"} = student;
+// let password = student.password;
