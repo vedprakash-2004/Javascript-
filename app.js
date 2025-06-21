@@ -1,6 +1,9 @@
 let btn = document.querySelector("button");
-console.log(btn);
 
-btn.onclick = function (){
-    console.log("button was clicked");
-};
+for (btn of btns){
+    btn.oneclick = sayHello;
+
+}
+function sayHello() {
+    alert("Hello");
+}
