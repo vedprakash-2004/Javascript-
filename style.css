@@ -1,11 +1,6 @@
-div{
-  height: 100px; 
-  width: 500px;
-  border: 10px solid black;
-  margin: auto;
-}
-body{
-  text-align: center;
-  display: flex;
-  justify-content: center;
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 1px solid black;
 }
