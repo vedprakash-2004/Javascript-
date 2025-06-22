@@ -1,9 +1,6 @@
-let p = document.querySelector("p");
-p.addEventListener("click", function(){
-    console.log("parah was clicked");
-});
+let btn = document.querySelector("button");
 
-let box = document.querySelector("box");
-box.addEventListener("mouseenter", function (){
-    console.log("mouse inside div");
+btn.addEventListener("click", function(){
+    console.dir(this.innerText);
+    this.style.backgroundColor = "blue";
 });
