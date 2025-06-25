@@ -1,10 +1,5 @@
-let btn = document.querySelector("button");
+let inp = document.querySelector("input");
 
-btn.addEventListener("click", function(event){
-    console.log(event);
-     console.log("button clicked");
-});
-   
-
-
-
+inp.addEventListener("keydown", function()){
+    console.log ("key was pressed");
+};
