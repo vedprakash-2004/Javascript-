@@ -1,8 +1,16 @@
 let inp = document.querySelector("input");
 
 inp.addEventListener("keydown", function(event){
-    console.log(event.key);
-    console.log("conde =", event.code);
-    console.log("key was pressed");
+  
+   console.log("code =", event.code);
+   if (event.code == "ArrowUp"){
+     console.log("character moves forward");
+   } else if(event.code == "ArrowUp"){
+     console.log("character moves backward");
+   } else if(event.code == "ArrowLeft"){
+    console.log("character moves left");
+   } else if (event.code == "ArrowRight"){
+    console.log("character moves right");
+   }
 });
    
