@@ -5,5 +5,5 @@ form.addEventListener("submit", function(event){
     
     let inp = document.querySelector("input");
     console.dir(inp);
-    console.log(inp.innerText);
+    console.log(inp.value);
 });
