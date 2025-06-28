@@ -4,5 +4,6 @@ form.addEventListener("submit", function(event){
     event.preventDefault();
     
     let inp = document.querySelector("input");
-    console.log(inp);
+    console.dir(inp);
+    console.log(inp.innerText);
 });
