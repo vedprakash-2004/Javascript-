@@ -11,3 +11,4 @@ function demo(){
 }
 console.log("calling demo fnx");
 demo();
+console.log("done bye! ");
