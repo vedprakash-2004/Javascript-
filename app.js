@@ -1,14 +1,12 @@
-function hello() {
-    console.log("inside hello fnx");
-    console.log("hello");
-    
+function one() {
+    return 1;
 }
 
-function demo(){
-    console.log("calling hello fnx");
-    hello();
-
+function two () {
+    return one() + one();
 }
-console.log("calling demo fnx");
-demo();
-console.log("done bye! ");
+
+function three() {
+    let ans = two() + one();
+    console.log(ans);
+}
