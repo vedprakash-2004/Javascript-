@@ -38,10 +38,20 @@ function savetoDb(data, success, failure){
 savetoDb(
     "apna college",
     () => {
-        console.log("your data was saved : ");
+        console.log("success : your data was saved");
+        savetoDb(
+            "hello world",
+            () => {
+                console.log("success2: data2 saved");
+            },
+            () => {
+                console.log("failure : weak connection");
+            }
+        );
+        
     },
     () => {
-        console.log("week connection. data not saved");
+        console.log("failure2 : weak connection. data not saved");
     }
 );
 
