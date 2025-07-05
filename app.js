@@ -69,12 +69,12 @@ function savetoDb(data){
     
 }
 
-let request = savetoDb("apna college"); //req = promise object
-request
+savetoDb("apna college")
+
 .then(() =>{
     console.log("promise was resolved");
 })
 .catch(()=>{
-    console.log("promise was rejected")
+    console.log("promise was rejected");
 });
 
