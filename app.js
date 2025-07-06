@@ -70,16 +70,18 @@ function savetoDb(data){
 }
 
 savetoDb("apna college")
-
 .then(() =>{
-    console.log("data1 saved.");
-    return savetoDb("helloworld")
-    .then(() => {
-      console.log("data2 saved");
-    });
-
+  console.log("data1 saved");
+  return savetoDb("helloworld");
 })
-.catch(()=>{
-    console.log("promise was rejected");
-});
+.then(() =>{
+  console.log("data2 saved");
+  return savetoDb("somu");
+})
+.then(() =>{
+  console.log("data3 saved");
+})
+.catch(() =>{
+  console.log("promise was rejected");
+})
 
