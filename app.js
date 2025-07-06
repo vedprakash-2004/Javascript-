@@ -73,7 +73,8 @@ savetoDb("apna college")
 
 .then(() =>{
     console.log("data1 saved.");
-    savetoDb("helloworld").then(() => {
+    return savetoDb("helloworld")
+    .then(() => {
       console.log("data2 saved");
     });
 
