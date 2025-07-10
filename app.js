@@ -30,5 +30,6 @@
 
 
 function greet(){
+  throw "some random error";
   return "Hello!";
 }
