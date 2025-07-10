@@ -43,3 +43,7 @@ greet()
 .catch((err)=>{
   console.log("promise was rejected with err: ", err);
 });
+
+let demo = async () => {
+  return 5;
+};
