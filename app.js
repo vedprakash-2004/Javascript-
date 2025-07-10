@@ -62,7 +62,7 @@ function getNum() {
 }
 
 async function  demo() {
- getNum();
- getNum();
+await getNum();
+ await getNum();
  getNum();
 }
