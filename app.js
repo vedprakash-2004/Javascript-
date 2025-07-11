@@ -1,15 +1,26 @@
-// h1 = document.querySelector("h1");
+h1 = document.querySelector("h1");
 
-// function changeColor(color, delay){
-//   new Promise((resolve, reject)=>{
-//       setTimeout(()=> {
-//       h1.style.color = color;
-//       resolve("color changed");
+function changeColor(color, delay){
+  new Promise((resolve, reject)=>{
+      setTimeout(()=> {
+      h1.style.color = color;
+      resolve("color changed");
         
-//     }, delay);
-//   }); 
+    }, delay);
+  }); 
 
-// }
+}
+
+async function demo() {
+  await changeColor("red", 1000);
+  await changeColor("orange", 1000);
+  await changeColor("green", 1000);
+  await changeColor("blue",1000);
+
+  let a = 5;
+  console.log(a);
+  console.log("new number = ", a+3);
+}
 
 // changeColor("red", 1000)
 // .then(()=> {
@@ -49,20 +60,20 @@
 // };
 
 
-function getNum() {
-  return new Promise((resolve, reject)=> {
-    setTimeout(() => {
-       let num = Math.floor (Math.random() *10)+1;
-       console.log(num);
-       resolve();
-    }, 1000);
+// function getNum() {
+//   return new Promise((resolve, reject)=> {
+//     setTimeout(() => {
+//        let num = Math.floor (Math.random() *10)+1;
+//        console.log(num);
+//        resolve();
+//     }, 1000);
   
 
-  });
-}
+//   });
+// }
 
-async function  demo() {
-await getNum();
- await getNum();
- getNum();
-}
+// async function  demo() {
+// await getNum();
+//  await getNum();
+//  getNum();
+// }
