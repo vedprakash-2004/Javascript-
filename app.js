@@ -1,10 +1,9 @@
-let jsonRes = 
-'{"fact":"Approximately 1/3 of cat owners think their pets are able to read their minds.","length":78}';
+let url = "https://catfact.ninja/fact";
 
-let validRes = JSON.parse(jsonRes);
-console.log(validRes.fact);
-
-let student = {
-  name: "shradha",
-  marks: 95,
-};
+fetch(url)
+.then((res) => {
+  console.log(res);
+})
+.catch((err) => {
+  console.log("ERROR-",err);
+});
