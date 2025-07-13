@@ -1,38 +1,10 @@
-h1 = document.querySelector("h1");
+let jsonRes = 
+'{"fact":"Approximately 1/3 of cat owners think their pets are able to read their minds.","length":78}';
 
-function changeColor(color, delay){
-  new Promise((resolve, reject)=>{
-      setTimeout(()=> {
-        let num = Math.floor(Math.random() * 5) + 1;
-        if(num > 3){
-          reject("promise rejected");
-        }
+let validRes = JSON.parse(jsonRes);
+console.log(validRes.fact);
 
-      h1.style.color = color;
-      console.log(`color changed to ${color}`);
-      resolve("color changed");
-        
-    }, delay);
-  }); 
-
-}
-
-async function demo() {
-  try{
-   await changeColor("red", 1000);
-   await changeColor("orange", 1000);
-   await changeColor("green", 1000);
-   await changeColor("blue",1000);
-  }catch(err){
-    console.log("error caught");
-
-    
-    console.log(err);
-  }
- 
-
-  let a = 5;
-  console.log(a);
-  console.log("new number = ", a+3);
-}
-
+let student = {
+  name: "shradha",
+  marks: 95,
+};
