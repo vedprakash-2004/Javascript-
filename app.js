@@ -8,6 +8,7 @@ btn.addEventListener("click", async () =>{
 //  console.log(link);
 let image = document.querySelector("#result");
 img.setAttribute("src",link);
+console.log(link);
 });
 
 async function getImage(){
