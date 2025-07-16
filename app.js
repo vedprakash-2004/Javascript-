@@ -1,13 +1,19 @@
-consturl = "https://echo.hoppscotch.io";
+let url = "http://universities.hipolabs.com/search?name=";
 
-async function getJokes() {
+let btn = document.querySelector("button");
+
+btn.addEventListener("click", async () => {
+  let country = document.querySelector("input").value;
+  console.log(country);
+  getColleges();
+});
+let country = "nepal";
+async function getColleges() {
   try{
-    const config = {headers: { Accept: "application/json"}};
-    let res = await axios.get(url, config);
-    console.log(res.data);
-  }catch (err){
-    console.log(err);
+    let res = await axios.get(url + country);
+    console.log(res);
+  }catch (e) {
+    console.log("error:", e);
+    return [];
   }
-  
-
 }
